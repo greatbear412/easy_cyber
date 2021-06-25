@@ -21,10 +21,10 @@
                 body: Container(
             child: Center(
                 child: CyberPunk(
-                child: Image(image: AssetImage('imgs/panda_cyber.webp')),
-                dur: 500,
-                cyberItemCount: 10,
-                infinite: true,
+                    child: Image(image: AssetImage('imgs/panda_cyber.webp')),
+                    dur: 500,
+                    cyberItemCount: 10,
+                    infinite: true,
                 ),
             ),
             decoration: BoxDecoration(
