@@ -1,7 +1,13 @@
 name: easy_cyber
+<<<<<<< HEAD
 description: A new Flutter package project.
 version: 0.0.1
 homepage:
+=======
+description: A Flutter package project to implement "cyber punk" style animation in an easy way.
+version: 0.0.1
+homepage: https://github.com/greatbear412/easy_cyber
+>>>>>>> 5fbc7fd (Project finished first version and to publish.)
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
