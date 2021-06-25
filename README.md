@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/greatbear412/easy_cyber/blob/master/README.md">English</a>
-    | <a href="https://github.com/hacktons/convex_bottom_bar/blob/master/README.zh.md">简体中文</a>
+    | <a href="https://github.com/greatbear412/easy_cyber/blob/master/README.zh.md">简体中文</a>
 </p>
 
 ---
@@ -33,13 +33,14 @@ An easy way to add "cyber punk" style animation to your widget.
     }
 ```
 ## Param Description
-|    **Param**         |                                **Description**                                |          **Default**
-|    dur               |      The max duration(milliseconds) of gradually showing/hiding animition     |              500
-|    cyberItemCount    |      Count of each 'cyper' animation piece in a single animition circle       |              10
-|    cyberItemHeight   |      Height of each 'cyper' animation piece.                                  |              10
-|    maxHeight         |      Max height of animation zone.                                            |              Widget's height
-|    repeatTimes       |      Animation repeat times.                                                  |              1
-|    infinite          |      If set to true, animition won't stop and `repeatTimes` won't work.       |              false
+|    **Param**         |                                **Description**                                |          **Default**           |
+| :------------------: | :---------------------------------------------------------------------------: | :----------------------------: |
+|    dur               |      The max duration(milliseconds) of gradually showing/hiding animition     |              500               |
+|    cyberItemCount    |      Count of each 'cyper' animation piece in a single animition circle       |              10                |
+|    cyberItemHeight   |      Height of each 'cyper' animation piece.                                  |              10                |
+|    maxHeight         |      Max height of animation zone.                                            |              Widget's height   |
+|    repeatTimes       |      Animation repeat times.                                                  |              1                 |
+|    infinite          |      If set to true, animition won't stop and `repeatTimes` won't work.       |              false             |
 
 ## Note
 This package mainly uses `ClipPath` widget and best applied with images.

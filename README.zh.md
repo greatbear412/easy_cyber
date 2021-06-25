@@ -35,13 +35,14 @@
     }
 ```
 ## 参数描述
-|    **Param**         |                                **Description**         |          **Default**
-|    dur               |      每一个动画效果bar的渐隐、渐显时间                      |              500
-|    cyberItemCount    |      每次循环中生成的动画效果bar的数量                      |              10
-|    cyberItemHeight   |      每个生成的动画效果bar的高度                           |              10
-|    maxHeight         |      动画区域的高度                                       |              Widget's height
-|    repeatTimes       |      动画重复次数                                         |              1
-|    infinite          |      是否无限循环（如果为`true`,则 `repeatTimes` 参数无效    |              false
+|    **Param**         |                                **Description**         |          **Default**           |
+| :------------------: | :----------------------------------------------------: | :----------------------------: |
+|    dur               |      每一个动画效果bar的渐隐、渐显时间                      |              500               |
+|    cyberItemCount    |      每次循环中生成的动画效果bar的数量                      |              10                |
+|    cyberItemHeight   |      每个生成的动画效果bar的高度                           |              10                |
+|    maxHeight         |      动画区域的高度                                       |              Widget's height   |
+|    repeatTimes       |      动画重复次数                                         |              1                 |
+|    infinite          |      是否无限循环（如果为`true`,则 `repeatTimes` 参数无效    |              false            |
 
 ## 说明
 主要使用了`ClipPath` widget，最好的使用方式是与图片搭配。
