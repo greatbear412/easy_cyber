@@ -31,13 +31,8 @@ class CyberPunk extends StatefulWidget {
 
   CyberPunk(
       {this.child,
-<<<<<<< HEAD
-      this.dur,
-      this.maxHeight,
-=======
       this.maxHeight,
       this.dur = 500,
->>>>>>> 5fbc7fd (Project finished first version and to publish.)
       this.cyberItemCount = 10,
       this.cyberItemHeight = 10,
       this.repeatTimes = 1,
